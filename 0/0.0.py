@@ -137,6 +137,7 @@ def test_3():
 
     #可以改变打印选项,强制输出所有元素
     # np.set_printoptions(threshold = sys.maxsize)
+    np.set_printoptions(threshold=sys.maxsize)
     print("e : \n", e)
 
 
